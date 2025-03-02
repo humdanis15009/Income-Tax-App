@@ -1,11 +1,11 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import { CheckCircle, ChevronDown, ChevronRight, Menu, Star } from "lucide-react"
 
 export default function Home() {
     return (
         <div className="flex min-h-screen flex-col">
             {/* Header */}
-           
+
             <main>
                 {/* Hero Section */}
                 <section className="bg-white py-12 md:py-20">
@@ -43,7 +43,7 @@ export default function Home() {
                             </div>
                             <div className="flex justify-center">
                                 <img
-                                    src="/placeholder.svg?height=500&width=400"
+                                    src="https://www.indiafilings.com/learn/wp-content/uploads/2017/10/How-to-File-Income-Tax-Return.jpg"
                                     alt="Tax filing expert"
                                     width={400}
                                     height={500}
@@ -66,7 +66,7 @@ export default function Home() {
                         <div className="flex justify-center space-x-4 md:space-x-8">
                             <div className="w-1/3 max-w-[180px] shadow-lg rounded-xl overflow-hidden">
                                 <img
-                                    src="/placeholder.svg?height=400&width=180"
+                                    src="https://th.bing.com/th/id/OIP.5KqYhLXlvXZwOqHtQY9uxAAAAA?rs=1&pid=ImgDetMain"
                                     alt="App Screenshot 1"
                                     width={180}
                                     height={400}
@@ -75,7 +75,7 @@ export default function Home() {
                             </div>
                             <div className="w-1/3 max-w-[180px] shadow-lg rounded-xl overflow-hidden">
                                 <img
-                                    src="/placeholder.svg?height=400&width=180"
+                                    src="https://moneyexcel.com/wp-content/uploads/2017/06/all-india-itr-app.png"
                                     alt="App Screenshot 2"
                                     width={180}
                                     height={400}
@@ -84,7 +84,7 @@ export default function Home() {
                             </div>
                             <div className="w-1/3 max-w-[180px] shadow-lg rounded-xl overflow-hidden">
                                 <img
-                                    src="/placeholder.svg?height=400&width=180"
+                                    src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/33/63/43336346-e260-e4d6-c69a-b173fbf48dd4/0afa1244-a1d0-4524-89ee-abb2ee5df911__U53d1_U7248_U56fe_1242_U002a2208_1.png/750x750bb.jpeg"
                                     alt="App Screenshot 3"
                                     width={180}
                                     height={400}
@@ -215,8 +215,8 @@ export default function Home() {
                                     </ul>
                                     <button
                                         className={`w-full py-3 rounded-full font-medium ${plan.popular
-                                                ? "bg-teal-600 text-white hover:bg-teal-700"
-                                                : "bg-gray-100 text-gray-900 hover:bg-gray-200"
+                                            ? "bg-teal-600 text-white hover:bg-teal-700"
+                                            : "bg-gray-100 text-gray-900 hover:bg-gray-200"
                                             }`}
                                     >
                                         Choose Plan
@@ -359,23 +359,23 @@ export default function Home() {
                                     title: "10 Tax Saving Tips for Salaried Employees",
                                     excerpt:
                                         "Learn how to maximize your tax savings with these effective strategies for salaried professionals.",
-                                    img: "/placeholder.svg?height=200&width=400",
+                                    img: "https://th.bing.com/th/id/OIP.fpOjEBA6CXRFieoi1K2MhAAAAA?rs=1&pid=ImgDetMain",
                                 },
                                 {
                                     title: "Understanding the New Tax Regime",
                                     excerpt: "A comprehensive guide to the new tax regime and how it compares to the old one.",
-                                    img: "/placeholder.svg?height=200&width=400",
+                                    img: "https://english.cdn.zeenews.com/sites/default/files/2023/04/14/1183512-untitled-design-2023-04-14t102400.354.jpg",
                                 },
                                 {
                                     title: "Common Mistakes to Avoid When Filing ITR",
                                     excerpt:
                                         "Avoid these common pitfalls that could lead to notices or penalties from the tax department.",
-                                    img: "/placeholder.svg?height=200&width=400",
+                                    img: "https://images.moneycontrol.com/static-mcnews/2024/06/20240613113725_DOs-DON%E2%80%99Ts-WHILE-FILING-ITR-TT.jpg",
                                 },
                             ].map((article, index) => (
                                 <div key={index} className="rounded-lg overflow-hidden shadow-md">
                                     <img
-                                        src={article.img || "/placeholder.svg"}
+                                        src={article.img || "https://imgeng.jagran.com/images/2023/jun/incometaxreturn1685697142894.jpg"}
                                         alt={article.title}
                                         width={400}
                                         height={200}

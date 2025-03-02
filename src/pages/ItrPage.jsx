@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 import React from 'react'
@@ -7,7 +7,7 @@ const ItrPage = () => {
     return (
         <div className="flex flex-col min-h-screen">
             {/* Navigation */}
-           
+
 
             {/* Hero Section */}
             <section className="bg-[#1a1e2a] text-white py-12 md:py-20 relative overflow-hidden">
@@ -20,7 +20,7 @@ const ItrPage = () => {
                         <div className="inline-flex items-center bg-white/10 rounded-full px-4 py-1 mb-6">
                             <div className="w-6 h-6 mr-2">
                                 <img
-                                    src="/placeholder.svg?height=24&width=24"
+                                    src="https://th.bing.com/th/id/OIP.hnpFvoXKgEE5W4QE5C0n_AHaD4?rs=1&pid=ImgDetMain"
                                     alt="US Flag"
                                     width={24}
                                     height={24}
@@ -47,7 +47,7 @@ const ItrPage = () => {
                                 {[1, 2, 3, 4].map((i) => (
                                     <div key={i} className="w-8 h-8 rounded-full border-2 border-[#1a1e2a] bg-gray-300">
                                         <img
-                                            src={`/placeholder.svg?height=32&width=32`}
+                                            src={`https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg`}
                                             alt={`User ${i}`}
                                             width={32}
                                             height={32}
@@ -71,7 +71,7 @@ const ItrPage = () => {
                     <div className="md:w-1/2 flex justify-center z-10">
                         <div className="relative w-full max-w-md">
                             <img
-                                src="/placeholder.svg?height=500&width=400"
+                                src="https://th.bing.com/th/id/OIP.Rb5Xfg1XHpPWYXOtcZeNhwHaEo?rs=1&pid=ImgDetMain"
                                 alt="Tax Professional"
                                 width={400}
                                 height={500}
@@ -122,7 +122,7 @@ const ItrPage = () => {
                                 <div className="relative z-10 flex -mx-4">
                                     <div className="px-4 transform -rotate-6">
                                         <img
-                                            src="/placeholder.svg?height=500&width=230"
+                                            src="https://th.bing.com/th/id/OIP.5KqYhLXlvXZwOqHtQY9uxAAAAA?rs=1&pid=ImgDetMain"
                                             alt="Mobile App Screen 1"
                                             width={230}
                                             height={500}
@@ -131,7 +131,7 @@ const ItrPage = () => {
                                     </div>
                                     <div className="px-4 transform rotate-6 mt-8">
                                         <img
-                                            src="/placeholder.svg?height=500&width=230"
+                                            src="https://triazinesoft.com/img/hellotax-screen.png"
                                             alt="Mobile App Screen 2"
                                             width={230}
                                             height={500}
